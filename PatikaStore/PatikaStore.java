@@ -38,13 +38,15 @@ public class PatikaStore {
 
                 case 3:
                     Brands.printBrands();
+                    break;
                 case 0:
                     isExit = true;
+                    break;
                 default:
                     System.out.println();
                     System.out.println("There is no such an option. Please enter your choice again.");
                     System.out.println();
-
+                    break;
             }
 
             if (isExit) {
